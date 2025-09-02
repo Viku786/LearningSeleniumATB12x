@@ -24,7 +24,7 @@ public class CommonToAll {
     }
 
 
-    public void closeBrowser(WebDriver driver){
+    public static void closeBrowser(WebDriver driver){
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
